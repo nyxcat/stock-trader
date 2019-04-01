@@ -1,6 +1,8 @@
 # stock-trader
 ## Introduction
-The goal of this project is to create a stock trader capable of learning from the market variables, generating (buy, sell, sit) actions, and evaluating the performance of itself. The tasks involved are as the follows:
+The goal of this project is to create a stock trader capable of learning from the market variables, generating (buy, sell, sit) actions, and evaluating the performance of itself. A blog with more detailed information can be found [here](https://medium.com/@nyxqianl/stock-trader-with-q-learning-91e70161762b).
+
+The tasks involved are as the follows:
 - Fetch and preprocess the historical stock data from yahoo!finance using the 'pandas_datareader' package
 - Train a trader that can decide which action to take given the current stock market environment
 - Evaluate performance of the trader
